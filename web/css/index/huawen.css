@@ -1,0 +1,182 @@
+.page-carousel{
+    height: 500px;
+}
+.page-carousel .slide-item{
+    cursor: pointer;
+    height: 500px;
+}
+.page-carousel .slide-item-1{
+    background: url('/image/home-swiper/banner1.png') top center no-repeat;
+}
+.page-carousel .slide-item-2{
+    background: url('/image/home-swiper/banner2.png') top center no-repeat;
+}
+.page-carousel .slide-item-3{
+    background: url('/image/home-swiper/banner3.png') top center no-repeat;
+}
+.page-carousel .swiper-pagination{
+    bottom:20px;
+}
+.page-carousel .swiper-pagination-bullet{
+    width:40px;
+    height:4px;
+    border-radius: 0;
+}
+.page-carousel .swiper-pagination-bullet-active{
+    background: #e6e6e6;
+    border-radius: 0;
+}
+
+.swiper-pagination-custom-active{
+    margin: 0 5px;
+}
+.section2{
+    padding: 0 5%;
+    background-color: #ffffff;
+    height: 50px;
+}
+.section2 ul li{
+    text-align: center;
+    padding-bottom: 18px;
+    padding-top: 7px;
+    border-bottom: 4px solid #357AE8;
+    list-style: none;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.section2-right{
+    width: 286px;
+    height: 40px;
+    background-color: #f1f3f4;
+    border-radius: 4px;
+    padding: 0 8px;
+    text-align: center;
+    float: right;
+    display: inline-block;
+    margin-top: -70px;
+}
+.section2-right input{
+    width: 240px;
+    border: 0;
+    background: 0;
+    padding-top: 10px;
+    display: inline-block;
+
+}
+.section2-right img{
+    cursor: pointer;
+    height: 15px;
+    width: 28px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: -23px;
+}
+.courselist{
+    min-height: 500px;
+    padding: 0 5% 20px;
+    background-color: #f7f7f7;
+}
+.coursenav{
+
+}
+.coursenav ul{
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+}
+.coursenav ul li{
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 28px;
+    list-style:none;
+    line-height: 80px;
+}
+/*课程*/
+.coursecliets ul{
+    display: flex;
+    justify-content: space-between;/*两端对齐，子元素之间有间隙*/
+    flex-wrap: wrap;
+}
+.courseli a{
+    cursor: pointer;
+}
+.coursecliets ul li{
+    width: 340px;
+    height: 312px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #C7C4C4;
+    margin-bottom: 30px;
+    position: relative;
+    list-style: none;
+}
+.topArea{
+    text-decoration: none;
+}
+.topArea img{
+    width: 340px;
+    height: 152px;
+    border-radius: 8px 8px 0;
+}
+.bottomArea{
+    height: 120px;
+}
+.title{
+    font-size: 23px;
+    padding: 20px 25px 0;
+    font-weight: 500;
+    color: #333333;
+    line-height: 28px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;  /*对溢出文本显示省略号*/
+}
+.coursetag{
+    font-size: 14px;
+    color: #8158ab;
+    background-color: #e8f1fd;
+    border-radius: 8px;
+    padding: 4px 6px;
+    display: inline-block;
+    margin-left: 22px;
+}
+.info{
+    width: 245px;
+    position: absolute;
+    margin-top: 30px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e2e6ed;
+    font-size: 14px;
+    color: #333333;
+}
+.author span{
+    margin-right: 20px;
+}
+/*
+*底部
+*/
+.bottom{
+    height: 120px;
+    width: 100%;
+    background-color: #ECECEC;
+    border-top: 1px solid #C7C4C4;
+    text-align: center;
+    font-size: 14px;
+    color: #A7A7A7;
+    padding-top: 30px;
+}
+.bottomConnection a{
+    color: #484848;
+    font-size: 14px;
+    margin:0px 14px;
+}

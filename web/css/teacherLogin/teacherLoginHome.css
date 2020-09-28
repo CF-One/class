@@ -1,0 +1,1312 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+}
+/*
+*头部
+*/
+.top{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 2px 2px gainsboro;
+    z-index: 9;
+}
+/* 导航栏 */
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+.logo{
+    height: 26px;
+    width: 104px;
+    float: left;
+    margin-top: 28px;
+    margin-left: 63px;
+    
+}
+
+.top ul{
+    position: absolute;
+    float: left;
+    margin-left: 170px;
+}
+.top ul li{
+    float: left;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+
+}
+.btm{
+    position: absolute;
+    width: 66px;
+    height: 3px;
+    background-color: #2c58ab;
+    left: 212px;
+    bottom: 0px;
+}
+/* 头部右边 */
+.touxiangBox{
+    float: right;
+    width: 100px;
+    height: 72px;
+}
+#touxiang{
+    width: 45px;
+    height: 40px;
+    float: left;
+    margin-top: 20px; 
+}
+.touxiangBoxName{
+    position: absolute;
+    font-size: 12px;
+    color: #484848;
+    margin-top: 60px;
+    margin-left: 4px;
+    padding: 2px;
+    border: 1px solid #484848;
+    display: none;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 4px #888888;
+}
+.touxiangBox:hover .touxiangBoxName{
+    display: block;
+}
+/* 点击弹出列表框 */
+#people{
+    width: 160px;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -100px;
+    display: none;
+    box-shadow: 2px 2px 10px #A1A1A1;
+}
+.item4 a{
+    font-size: 14px;
+    margin-left: -230px;
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    color: black;
+}
+.item4{
+    list-style: none;
+}
+.item4 a:hover{
+    background-color: gainsboro;
+    color: blue;
+}
+
+.vip{
+    position: absolute;
+    margin-top: 7px;
+
+}
+.mechanismNo{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+}
+.recode_2{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 15px;
+    height: 20px;
+}
+/*  */
+#naozhong{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: 30px; 
+    margin-right: 20px;
+}
+.newsOpen{
+    float: right;
+    width: 50px;
+    height: 72px;
+}
+
+/* 消息通知弹出框 */
+#news{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-left: -250px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    display: none;
+    
+}
+.newsTitle{
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+.newsProvide{
+    background-color: red;
+    padding: 0px 5px;
+    color: #ECECEC;
+    border-radius: 50px;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 14px;
+}
+.newsDown{
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height:50px;
+    background-color: #f2f2f2;
+}
+.newsLeft{
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.newsRight{
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+
+.tool1{
+    float: right;
+    width: 150px;
+    height: 72px;
+}
+.tool_icon{
+    
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+/* 中部 */
+.contentTop{
+    width: 92%;
+    height: 156px;
+    margin: 0 auto;
+    border-bottom: 1px solid #D1D1D1;
+}
+.span2{
+    position: absolute;
+    margin-top: 110px;
+    font-size: 16px;
+}
+/* 右边按钮 */
+.contentTopRight{
+    width: 520px;
+    height: 40px;
+    float: right;
+    margin-top: 100px;
+}
+/* 发布活动 */
+.release{
+    width: 130px;
+    height: 38px;
+    float: right;
+    background-color: #32baf0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+}
+.span3{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+/* 创建课程的二级菜单 */
+ .list{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid gainsboro;
+    position: absolute;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    display: none;
+    margin-left: 242px;
+    margin-top: 38px;
+    z-index: 888;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0;
+    width: 120px;
+    height:80px;
+} 
+.item{
+    list-style: none;
+}
+.item li a{
+    color: #484848;
+    font-size: 20px;
+}
+.list a:hover{
+    background-color: gainsboro;
+    
+} 
+.clickOpen:hover .list{
+    display: block;
+}
+
+/* 归档和排序 */
+.guidang{
+    width: 83px;
+    height: 22px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+}
+.paixu{
+    width: 83px;
+    height: 22px;
+    float: left;
+    margin-top: 10px;
+}
+
+/* 水平线 */
+.hr{
+    width: 92%; 
+    border: 1px solid gainsboro;
+    position: absolute;
+    margin-top: 156px;
+    margin-left: 53px;
+
+}
+
+/* 课程展示 */
+.contentMain{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 25px 74px 0px 64px;
+}
+/* 熟悉 课堂派 */
+.case{
+    width: 272px;
+    height: 275px;
+    margin-top: 69px;
+    position: absolute;
+    float: left;
+    margin-left: 50px;
+    border-radius: 8px;
+    border:1px solid #e2e6ed;
+}
+.picture{
+    width: 272px;
+    height: 127px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.ju{
+    width: 20px;
+    height: 26px;
+    color: blue;
+    position: absolute;
+    margin-top: -127px;
+    /*background-color: white;*/
+    margin-left: 240px;
+    text-align: center;
+    background-image: url("/image/teacherLogin/home/studentLable.png");
+}
+.study{
+    color: white;
+    /*background-color: #32BAF0;*/
+
+}
+.span4{
+    position: absolute;
+    font-size: 20px;
+    margin-top: -115px;
+    margin-left: 20px;
+    
+}
+.span4 a{
+    color: white;
+}
+.span4 a:hover{
+    text-decoration: underline;
+    
+}
+/* 下拉菜单 */
+.extraCode{
+    margin-top: -45px;
+    margin-left: 35px;
+    margin-bottom: 26px;
+}
+.extraCode a{
+    font-size: 14px; 
+    color: white;
+    background: rgba(255,255,255,.2);
+}
+.erweima{
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    position: absolute;
+    margin-left: -18px;
+}
+/* 下拉菜单 */
+.list1{
+    background-color: white;
+    position: absolute;
+    z-index: 888;
+    border: 1px solid  #e2e6ed;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 120px;
+    height: 60px;
+    margin-top: -1px;
+    line-height: 30px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    display: none;
+}
+.item1 a{
+    font-size: 14px;
+}
+.item1{
+    list-style: none;
+}
+.item1 a:hover{
+    background-color: gainsboro;
+}
+.extraCode:hover .list1{
+    display: block;
+}
+.span5{
+    margin-top: 4px;
+    font-size: 14px;
+    color: gray;
+}
+.txt{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 40px;
+    height: 90px;
+    overflow: hidden;
+}
+.txt a{
+    display: block;
+    margin-bottom: 6px;
+}
+.txt a:hover{
+    color: #32baf0;
+    text-decoration: underline #32baf0;
+}
+.slkt{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+.caseDown{
+    width: 252px;
+    height: 38px;
+    padding: 0px 10px;
+    border-top:1px solid #e2e6ed;
+    background-color: #FFFFFF;
+}
+.chengyuan{
+    margin-top: 8px;
+    margin-right: 4px;
+}
+/* 更多展开菜单 */
+.txt1{
+    font-size: 14px;
+    float: right;
+    margin-top: 10px;
+    color: #2c58ab;
+}
+.more{
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    margin-top: -238px;
+    margin-left: 150px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    text-align: center;
+   display: none;
+}
+.addCourseMore{
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    margin-top: -108px;
+    margin-left: 124px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    text-align: center;
+    display: none;
+}
+.moreList{
+    list-style: none;
+}
+.moreList  a{
+    line-height: 30px;
+    color: #484848;
+    font-size: 14px;
+}
+.moreList  a:hover{
+    background-color: #D1D1D1;
+}
+.caseDown:hover .more{
+    display: block;
+}
+.caseDown:hover .addCourseMore{
+    display: block;
+}
+.txt2{
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+.txt3{
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    margin-top: 10px;
+}
+
+/*c++  */
+.createCourse{
+    width: 272px;
+    height: 275px;
+    border-radius: 8px;
+    border:1px solid #e2e6ed;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.more1{
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    margin-top: -228px;
+    margin-left: 120px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    text-align: center;
+    display: none;
+}
+.caseDown:hover .more1{
+    display: block;
+}
+.txt4{
+    position: absolute;
+}
+.time{
+    position: absolute;
+    margin-left: 170px;
+    font-size: 12px;
+    margin-top: -35px;
+    color: white;
+    opacity: 0.5;
+}
+
+/*java  */
+.java{
+    width: 272px;
+    height: 275px;
+    margin-top: 69px;
+    position: absolute;
+    margin-left: 694px;
+    border-radius: 8px;
+    border:1px solid #e2e6ed;
+}
+
+/* python */
+.python{
+    width: 272px;
+    height: 275px;
+    margin-top: 69px;
+    position: absolute;
+    margin-left: 1016px;
+    border-radius: 8px;
+    border:1px solid #e2e6ed;
+}
+
+/* c# */
+.c1{
+    width: 272px;
+    height: 275px;
+    border-radius: 8px;
+    border:1px solid #e2e6ed;
+    display: inline-block;
+}
+
+/* 创建课程 */
+.createCourseDiv{
+    width: 272px;
+    height: 275px;
+    border-radius: 8px;
+    border:1px solid #e2e6ed;
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+.create{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+/* 创建课程弹出框 */
+
+/*背景层*/
+#popLayer {
+display: none;
+background-color: #B3B3B3;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1000;
+-moz-opacity: 0.8;
+opacity:.50;
+filter: alpha(opacity=50);
+height: 100%;
+}
+/*弹出层*/
+#popBox {
+display: none;
+background-color: #FFFFFF;
+z-index: 1001;
+width: 650px;
+height: 420px;
+position:fixed;
+top:0;
+right:0;
+left:0;
+bottom:0;
+margin:auto;
+}
+#popBox .close{
+text-align: right;
+margin-right: 5px;
+
+}
+/*关闭按钮*/
+#popBox .close a {
+text-decoration: none;
+color: #2D2C3B;
+}
+/* 弹出框界面 */
+.title{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.className{
+    width: 600px;
+    height: 60px;
+    
+    margin-left: 25px;
+    border-bottom:2px solid grey ;
+    margin-bottom: 10px;
+    position: relative;
+}
+/*  */
+.className:hover{
+    border-bottom:2px solid rgba(50,186,240,1);
+}
+.className1{
+    width: 600px;
+    height: 60px;
+    
+    margin-left: 25px;
+    
+    margin-bottom: 10px;
+    position: relative;
+}
+.textInput{
+    position: absolute;
+    bottom: 0;
+}
+.textBox{
+    width: 200px;
+    border: 0px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    
+}
+.textBox1{
+    width: 200px;
+    border: 0px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+.textInput a:hover{
+    color: rgba(50,186,240,1);
+}
+.className2{
+    width: 650px;
+    height: 76px;
+    background-color: #F5F5F5;
+    
+    
+    margin-bottom: 10px;
+    position: relative;
+}
+.button{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.exit{
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.join{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(50,186,240,1);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+/* 加入课程弹出框 */
+/* 遮罩层 */
+#popLayer1 {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+    }
+/*弹出层*/
+#popBox1 {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 300px;
+    height: 200px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    
+    }
+#popBox1 .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    }
+/*关闭按钮*/
+    #popBox1 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+    }
+    .title3{
+        font-size: 20px;
+        margin-top: 20px;
+        width: 300px;
+        height: 40px;
+        border-bottom: 2px solid gainsboro;
+    }
+.joinClass{
+    width: 250px;
+    height: 40px; 
+    text-align: center;
+    margin-left: 25px;
+    border-bottom: 2px solid gainsboro;
+    margin-top: 20px;
+    }
+
+.inputCode{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    }
+    .joinClass:hover{
+        border-bottom:2px solid rgba(50,186,240,1);
+    }
+.button1{
+    float: right;
+    margin-right: 40px;    
+    margin-top: 20px;
+    }
+
+/* 删除课程弹出框 */
+ /* 遮罩层  */
+#popLayer2,#popLayer21 {
+    display: none;    
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+    }
+/*弹出层*/
+#popBox2,#popBox21 {
+    display: none;    
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 400px;
+    height: 300px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    }
+
+ .delete{
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+ .deleteInput{
+     text-align: center;
+     border-top: 1px solid gray;
+     outline: none;
+     
+ }
+ .deleteInput1{
+    text-align: center;
+    border-bottom: 2px solid gainsboro;
+    outline: none;
+    width: 350px;
+    margin-left: 25px;
+    
+}
+.deleteInput1:hover{
+    border-bottom:2px solid rgba(50,186,240,1);
+}
+ .delete1{
+     outline: none;
+     border: 0px;
+     height: 50px;
+ }
+ .button2{
+     height: 50px;
+    margin-left: 25px;
+    text-align: center;
+    width: 350px;
+    padding-top: 20px;
+ }
+
+
+ /* 归档课程弹出框 */
+ /* 遮罩层  */
+#popLayer3 {
+    display: none;   
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+    }
+ #popBox3 {
+    display: none;   
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 400px;
+    height: 300px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;   
+    }
+#popBox3 .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    }
+    /*关闭按钮*/
+#popBox3 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+    }
+#popBox3AddCourse {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 400px;
+    height: 300px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox3AddCourse .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+}
+/*关闭按钮*/
+#popBox3AddCourse .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+.tip{
+    color: gray;
+    font-size: 20px;
+}
+.prompt{
+    font-size: 14px;
+}
+.button3{
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 修改课程弹出框 */
+/*背景层*/
+#popLayer4 {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+    }
+/*弹出层*/
+#popBox4 {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 1001;
+    width: 650px;
+    height: 420px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox4 .close{
+    text-align: right;
+    margin-right: 5px;
+    
+}
+/*关闭按钮*/
+#popBox4 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+
+/* 课程排序和归档 */
+/*背景层*/
+#popLayer5 {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+    }
+/*弹出层*/
+#popBox5 {
+    display: none;  
+    background-color: #FFFFFF;
+    z-index: 1001;
+    width: 700px;
+    height: 500px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox5 .close{
+    text-align: right;
+    margin-right: 5px;
+    
+}
+/*关闭按钮*/
+#popBox5 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+.navigation {
+    overflow: hidden;
+    text-align: center;
+    background-color: #f4f4f4;
+    font-size: 20px;
+    }
+.navigation li {
+    float: left;
+    padding: 5px;
+    width: 300px;
+    color: #666;
+    list-style: none;
+    border-left: 1px solid #f4f4f4;
+    cursor: pointer; 
+}
+.navigation li:hover,.selected {
+    background-color:#ecebeb;
+    border-left: 1px solid #ecebeb;
+}
+.content1{
+    border: 1px solid #f4f4f4;
+    height: 380px;
+    padding: 10px;
+}
+.classList1{
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid gainsboro;    
+}
+.classList2{
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid gainsboro;      
+}
+.classList3{
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid gainsboro;     
+    }
+.list3 div:hover{
+    border: 1px solid blue;
+    }
+.list2{
+    overflow: auto;
+}
+.title1{
+    color: white;
+    font-size: 18px;
+    margin-top: -60px;
+    display: block;
+    margin-left: 20px;
+}
+.title2{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.fileCourse{
+    display: inline-block;
+    width: 300px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+
+.ybg{
+    background-color:  rgb(49, 142, 235);
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+}
+.kczt_23{
+    background-color: #32BAF0;
+    display: block;
+    margin-top: -54px;
+    margin-left: 250px;
+}
+
+/* 弹出菜单 */
+.menuHover{
+    width: 80px;
+    position: absolute;
+    height: 80px;
+    margin-top: -50px;
+    margin-left: 220px;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    display: none;
+}
+.menuUl{
+    list-style: none;
+}
+.menuUl li a{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    color: #484848;
+    font-size: 16px;
+    margin-left: -40px;
+}
+.menuUl li a:hover{
+    background-color: #D1D1D1;
+}
+.menu:hover .menuHover{
+    display: block;
+}
+
+
+
+/* 归档课程弹出框 */
+/* 遮罩层  */
+#popLayer6 {
+    display: none; 
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+}
+#popBox6 {
+    display: none; 
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 400px;
+    height: 300px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox6 .close{
+    text-align: right;
+    margin-right: 5px;
+    
+    }
+/*关闭按钮*/
+#popBox6.close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+
+/* 快速发布活动弹出框 */
+#popLayer7 {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+}
+#popBox7 {
+    display: none; 
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 700px;
+    height: 280px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    border-radius: 10px;
+}
+
+
+.span6{
+    font-size: 24px;
+    color: rgba(112,112,112,1);
+    margin-left: 250px;
+    margin-top: 20px;
+    position: absolute;
+}
+.releaseType{
+    position: absolute;
+    margin-top: 100px;
+}
+.tubiao{
+    margin-left: 50px;
+
+}
+/* 发布个人作业 */
+/* 快速发布活动弹出框 */
+#popLayer8 {
+    display: none;
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 100%;
+}
+#popBox8 {
+    display: none; 
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 900px;
+    height: 850px;
+    position: absolute;
+    top:50px;
+    right:0;
+    left:0;
+    bottom:50px;
+    margin:auto;
+    border-radius: 10px;
+}
+.layer-header{
+    width: 900px;
+    height: 105px;
+    font-size: 24px;
+    color:  rgba(112,112,112,1);
+    border-top-left-radius:10px ;
+    border-top-Right-radius:10px ;
+    background-color:  rgba(51,142,235,.1);
+}
+
+
+    
+.publish{
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.span7{
+    width: 200px;
+    margin-left: 410px;
+    margin-top: 45px;
+    position: absolute;
+}
+.homework{
+    width: 900px;
+    height: 535px;
+    padding-top: 30px;
+}
+.textBox2{
+    width:802px ;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 45px;
+}
+.textBox3{
+    width:802px ;
+    height: 120px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.data{
+    margin-left: 45px;
+    margin-top: 30px;
+
+}
+.textBox4{
+    width:302px ;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.textBox5{
+    width:57px ;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.button4{
+    background-color:#32BAF0 ;
+    border-radius: 5px;
+    width:102px ;
+    height: 38px;
+    border: 0;
+}
+.textBox6{
+    width:670px ;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}   

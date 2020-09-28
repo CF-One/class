@@ -1,0 +1,572 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+}
+/*
+*头部
+*/
+.top{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    top: 0;
+    box-shadow: 2px 2px 2px gainsboro;
+    z-index: 9;
+}
+/* 导航栏 */
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+.logo{
+    float: left;
+    margin-top: 18px;
+    margin-left: 30px;   
+}
+.span{
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    background-color: #2c58ab;
+    color: white;
+    border-radius: 16px;
+    float: left;
+    margin-top: 20px;
+    padding: 4px 6px;
+}
+.topUl{
+    float: left;
+    margin-left: 580px;
+}
+.touxiangBox ul{
+    float: left;
+    margin-top: -0px;
+}
+.top ul li{
+    float: left;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+    margin-top: 4px;
+
+}
+.studentTask{
+    border-bottom: 4px solid #2C58AB;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+.btm{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #2c58ab;
+    left: 515px;
+    margin-top: 70px;
+}
+/* 头部右边 */
+.touxiangBox{
+    float: right;
+    width: 100px;
+    height: 72px;
+}
+#touxiang{
+    width: 45px;
+    height: 40px;
+    float: left;
+    margin-top: 20px; 
+}
+/* 点击弹出列表框 */
+#people{
+    width: 160px;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -100px;
+    display: none;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    
+}
+.item4 a{
+    font-size: 14px;
+    margin-left: -60px;
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    color: black;
+}
+.item4{
+    list-style: none;
+}
+.item4 a:hover{
+    background-color: gainsboro;
+    color: blue;
+    
+}
+
+.vip{
+    position: absolute;
+    margin-top: 7px;
+    
+}
+.mechanismNo{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+}
+.recode_2{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 15px;
+    height: 20px;
+}
+/*  */
+#naozhong{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: 30px; 
+    margin-right: 20px;
+}
+.newsOpen{
+    float: right;
+    
+    width: 50px;
+    height: 72px;
+}
+
+/* 消息通知弹出框 */
+#news{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-left: -250px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    display: none;
+    
+}
+.newsTitle{
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+.newsDown{
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height:50px;
+    background-color: #f2f2f2;
+}
+.newsLeft{
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.newsRight{
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+
+.tool1{
+    float: right;
+    width: 150px;
+    height: 72px;
+    
+}
+.tool_icon{
+    
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+/* 中部 */
+.content{
+    width: 1224px;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.contentTop{
+    width: 100%;
+    height: 147px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+}
+
+.span1{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+.button{
+    width: 120px;
+    height: 28px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+.button1{
+    width: 200px;
+    height: 28px;
+    float: left;
+    margin-top: 85px;
+    margin-left: 30px;
+    background-color: rgba(0,0,0,.1);;
+    border: 0px;
+}
+.textBox{
+    width: 176px;
+    height: 30px;
+    float: right;
+    margin-top: 80px;
+    margin-right: -120px;
+    background-color:white;
+    border: 1px solid gainsboro;
+}
+.input{
+    width: 150px;
+    height: 28px;
+    background-color: white;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.select{
+    width: 139px;
+    height: 30px;
+    background-color: #357ae8;
+    border: 0px;
+    color: white;
+    float: right;
+    margin-top: 81px;
+    margin-right: 20px;
+}
+option{
+    background-color: white;
+    color: black;
+}
+.chachong{
+    float: right;
+    margin-top: 83px;
+    margin-right: 20px;
+}
+/* 表格区域 */
+.contentDown{
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    border-top: 0px solid;
+}
+/* 头部文字 */
+.title{
+    width: 95%;
+    height: 45px;
+    margin: 0 auto;
+}
+.span2{
+    margin-top: 10px;
+    position: absolute;
+}
+#a{
+    float: right;
+    margin-top: 10px;
+}
+.title a:hover{
+    color: blue;
+}
+/* 列表 */
+.workTips{
+    width: 95%;
+    height: 282px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid gainsboro;
+}
+.table1{
+    width: 100%;
+    border: 0px;
+    
+    
+}
+
+.tr{
+    height: 47px;
+    border: 0px;
+}
+.td1{
+    border-bottom: 1px dashed gainsboro;
+    width: 20%;
+    background-color: #F2F2F2;
+}
+.td2{
+    border-bottom: 1px dashed gainsboro;
+    width: 80%;
+}
+
+.buxian{
+    margin-left: 30px;
+    float: left;
+    
+}
+.box{
+    float: left;
+}
+.checkbox1{
+    margin-left: 40px;
+    margin-top: 5px;
+    float: left;
+}
+.checkbox2{
+    margin-left: 32px;
+    margin-top: 5px;
+    float: left;
+}
+.td2 a:hover{
+    color: blue;
+}
+
+.input1{
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 50px;
+    height: 20px;
+}
+.hr1{
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    margin-left: 93px;
+    margin-top: 16px;
+}
+.sure{
+    margin-top: 7px;
+    float: left;
+    color: gray;
+}
+
+/*导航栏  */
+.nav{
+    width: 95%;
+    height: 42px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+}
+.idNumber{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.state{
+    width: 102px;
+    height: 32px;
+    float: left;
+    margin-left: 30px;
+    background-color: white;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+
+
+
+/* 学生作业提交显示表格 */
+.nav1{
+    width: 95%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    border: 1px solid gainsboro;
+}
+.all{
+    float: left;
+    
+    margin-top: 29px
+}
+.button2{
+    width: 76px;
+    height: 32px;
+    font-size: 12px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    border: 0px;
+    background-color: #9BBEF2!important;
+    color: white;
+    border-radius: 4px;
+}
+.red{
+    float: right;
+    color: red;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+/*  */
+.table{
+    width: 95%;
+    height: 480px;
+    margin: 0 auto;
+}
+.table2{
+    width: 100%;
+    
+    border: 0px;
+}
+.tr1{
+    border: 1px solid gainsboro;
+    height: 60px;
+}
+td{
+    border: 0px;
+    color: gray;
+}
+
+.checkbox3{
+    width: 17px;
+    height:17px;
+}
+.tr1:hover{
+    background-color: gainsboro;
+    
+}
+
+.look{
+    color: blue;
+}
+
+/*催交提示框  */
+#popLayer {
+    display: none;       
+    background-color: #B3B3B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    -moz-opacity: 0.8;
+    opacity:.50;
+    filter: alpha(opacity=50);
+    height: 1400px;
+    }
+/*弹出层*/
+#popBox {
+    display: none;   
+    background-color: #f8f8f8;
+    z-index: 11;
+    width: 500px;
+    height: 150px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    }
+.span3{
+    float: left;
+    font-size: 18px;
+    color: grey;
+    margin-left: 155px;
+    margin-top:30px;
+}
+.button3{
+    width: 91px;
+    height: 32px;
+    border: 0px;
+    background-color: white;
+    color: gray;
+    float: left;
+    margin-left: -220px;
+    margin-top: 90px;
+    
+}
+.button4{
+    width: 100px;
+    height: 32px;
+    border: 0px;
+    background-color: #079cda;
+    color: white;
+    float: left;
+    margin-left: -60px;
+    margin-top: 90px;
+   
+}
+/* 全部催交弹出框 */
+#popBox1 {
+    display: none; 
+    background-color: #f8f8f8;
+    z-index: 11;
+    width: 500px;
+    height: 150px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    }
+.tdCheckBox{
+    width: 20px;
+}
+.userId{
+    width: 130px;
+}
+.grade{
+    width: 40px;
+    padding-left: 4px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+    color: gray;
+    font-size: 16px;
+}
+.tdGrade{
+    width: 150px;
+}
+.similar{
+    width: 96px;
+}
+.provideDate{
+    width: 156px;
+}
+.taskNum{
+    width: 118px;
+}
+.checkNum{
+    width: 100px;
+}

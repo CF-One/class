@@ -1,0 +1,192 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+}
+/*
+*头部
+*/
+.top{
+    width: 100%;
+    height: 72px;
+    background-color: #333;;
+    border-bottom: 1px solid gainsboro;
+    
+    top: 0;
+    box-shadow: 2px 2px 2px gainsboro;
+    z-index: 9;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+/* 下拉栏 */
+.span{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+}
+#span1{
+    float: left;
+    margin-left: -30px;
+    margin-top: 40px;
+    color: white;
+}
+/* 点击弹出列表框 */
+#people{
+    display: none;
+    width: 160px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+}
+.item4 a{
+    font-size: 14px;
+    margin-left: -40px;
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    color: black;
+       
+}
+.item4{
+    list-style: none;
+}
+.item4 a:hover{
+    background-color: gainsboro;
+   
+}
+
+/* 导航图标 */
+.share2{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-left: 730px;
+    margin-top: 25px;
+}
+.sixin{
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+/* 打回按钮 */
+.button{
+    width: 122px;
+    height: 41px;
+    line-height: 40px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 15px;
+    text-align: center;
+}
+.button1{
+    width: 132px;
+    height: 40px;
+    background-color: rgba(250,250,250,.9);
+    text-align: center;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    line-height: 40px;
+}
+.button1:hover{
+    background-color: white;
+}
+.button1>input{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #888888;
+    outline: none;
+    width: 40px;
+    padding-left: 10px;
+    background-color: rgba(250,250,250,.9);
+}
+.button2{
+    width: 39px;
+    height: 40px;
+    background-color: rgba(250,250,250,.9);
+    text-align: center;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    line-height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.button2:hover{
+    background-color: white;
+}
+.button3{
+    width: 39px;
+    height: 40px;
+    background-color: rgba(250,250,250,.9);
+    text-align: center;
+    float: left;
+    border-left:1px solid black ;
+    margin-top: 15px;
+    line-height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.button3:hover{
+    background-color: white;
+}
+/* 中部 */
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: #ECECEC;;
+}
+.contentMain{
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 4px 4px 4px  gainsboro;
+}
+.list2{
+    padding: 50px;
+    text-indent: 2em;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.left{
+    float: left;
+    margin-left: 130px;
+    margin-top: 200px;
+}
+.right{
+    float: right;
+    margin-right: 130px;
+    margin-top: 200px;
+}
+.rar{
+    float: left;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+.download{
+    color: blue;
+    text-decoration: underline blue;
+    float: left;
+    margin-top: 200px;
+}
+.touxiang{
+    width: 200px;
+    height: 200px;
+}

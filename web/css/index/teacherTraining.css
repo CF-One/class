@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+    background-color:#ECF0F6;
+}
+/*中部*/
+
+.content{
+    width:100% ;
+}
+/* 顶部图片 */
+.contentTop{
+    width: 100%;
+}
+.banner5{
+    width: 100%;
+    height: 460px;
+}
+/* 中部主体 */
+.contentMain{
+    width: 1030px;
+    margin: 0 auto;
+    background-color: white;
+}
+/* 导航栏 */
+.contentMainTop{
+    width: 1030px;
+    height: 90px;
+    background-color: #ECF0F6;
+    padding-top: 60px;
+}
+.mainTopNav{
+    width: 315px;
+    height: 67px;
+}
+.title1 a{
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 29px;
+    float: left;
+}
+.title2 a{
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 29px;
+    float: right;
+}
+.title3{
+    width: 80px;
+    height: 3px;
+    background-color: #4285F4;
+    margin-left: 38px;
+    margin-top: 55px;
+    position: absolute;
+}
+.title4{
+    width: 2px;
+    height: 30px;
+    background-color:black;
+    float: left;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+/* 课程展示 */
+
+.contentMainOne{
+    width: 1000px;
+    height: 700px;
+    padding-bottom: 30px;
+}
+.contentMainOne_Left{
+    width: 218px;
+    height: 200px;
+    float: left;
+    border: 1px solid #ECECEC;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.teacherPicture{
+    width: 218px;
+    height: 95px;
+}
+.player{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    left: 85px;
+}
+.teacherWord{
+    width: 218px;
+    height: 34px;
+    border-top: 1px solid #ECECEC;
+    margin-top: 4px;
+    padding-top: 6px;
+}
+.span1{
+    text-align: center;
+    font-size: 14px;
+}
+.span2{
+    text-align: center;
+    font-size: 12px;
+    color: #484848;
+    margin-left: 18px;
+}
+/*
+*底部
+*/
+.bottom{
+    height: 120px;
+    width: 100%;
+    background-color: #ECECEC;
+    border-top: 1px solid #C7C4C4;
+    text-align: center;
+    font-size: 14px;
+    color: #A7A7A7;
+    padding-top: 30px;
+}
+.bottomConnection a{
+    color: #484848;
+    font-size: 14px;
+    margin:0px 14px;
+}
+
+

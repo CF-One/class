@@ -1,0 +1,158 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    text-align: center;
+
+}
+.main{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image:url("../image/reg-bg-01.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover;/* 兼容Opera */
+    zoom: 1;
+    z-index: 1;
+}
+.register {
+    width: 420px;
+    height: 640px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 3;
+    position: fixed;
+    top: 16%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 30px 0px 30px;
+}
+.registerTitle{
+    width: 100%;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+}
+.registerTitle img{
+    float: left;
+}
+.registerTitle p{
+    color: #484848;
+    margin-left: 60px;
+    font-size: 28px;
+}
+.registerForm{
+    width: 100%;
+    margin-top: 10px;
+}
+.registerFormDiv {
+    height: 66px;
+    width: 100%;
+}
+.registerFormDiv input{
+    width: 420px;
+    height: 46px;
+    border: 1px solid #ECECEC;
+    outline: none;
+    padding: 0px 0px 0px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.registerForm input:focus{
+    border: 1px solid #32BAF0;
+}
+.hint{
+    float: right;
+    color: red;
+    font-size: 12px;
+}
+.hintSchool{
+    float: right;
+    color: red;
+    font-size: 12px;
+}
+select{
+    width: 416px;
+    height: 46px;
+    margin-top: 14px;
+    border: 1px solid #ECECEC;
+    outline: none;
+    padding: 0px 0px 0px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+select:focus{
+    border: 1px solid #32BAF0;
+}
+.selectSchool{
+    height: 40px;
+}
+.registerFormVerification{
+    width: 420px;
+    height: 50px;
+}
+.registerFormVerification input{
+    width: 210px;
+    float: left;
+    height: 46px;
+    border: 1px solid #ECECEC;
+    outline: none;
+    padding: 0px 0px 0px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.registerFormVerification img{
+    width: 156px;
+    height: 50px;
+    float: right;
+}
+.registerFormBtn{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.registerFormBtnA{
+    width: 420px;
+    height: 50px;
+    color: white;
+    background-color: #32BAF0;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    line-height: 50px;
+}
+.registerFormBtnA:hover{
+    background-color: #4d90fe;
+}
+.registerFormRegister{
+    width: 100%;
+    height: 48px;
+    margin-top: -10px;
+    color: #A1A1A1;
+}
+.registerFormRegister p{
+    float: right;
+    margin-top: 24px;
+}
+.registerFormRegister a{
+    color: #32BAF0;
+}
+.registerFormRegister a:hover{
+    color: #4d90fe;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    text-align: center;
+
+}
+.main{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image:url("/image/reg-bg-01.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover;/* 兼容Opera */
+    zoom: 1;
+    z-index: 1;
+}
+.register {
+    width: 420px;
+    height: 494px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 3;
+    position: fixed;
+    top: 22%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px 0px 30px;
+}
+.registerTitle{
+    width: 420px;
+    text-align: left;
+    color: #484848;
+}
+.registerTitle p{
+    color: #A1A1A1;
+}
+.registerTeacher{
+    height: 64px;
+    line-height: 64px;
+    margin-top: 60px;
+}
+.registerTeacher img{
+    float: left;
+}
+.registerTeacher a{
+    width: 330px;
+    height: 64px;
+    font-size: 16px;
+    background-color: #32BAF0;
+    display: inline-block;
+    color: white;
+    float: right;
+    border-radius: 5px;
+}
+.registerTeacher a:hover{
+    background-color: #4d90fe;
+}
+.registerLogin{
+    width: 100%;
+}
+.registerLogin p{
+    float: right;
+    color: #A1A1A1;
+}
+.registerLogin a{
+    color: #32BAF0;
+}
+.registerLogin a:hover{
+    color: #4d90fe;
+}
+a{
+    text-decoration: none;
+}

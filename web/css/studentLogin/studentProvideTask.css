@@ -1,0 +1,387 @@
+body{
+    margin: 0 auto;
+    padding: 0 ;
+}
+/*
+*头部
+*/
+.top{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    top: 0;
+    box-shadow: 2px 2px 2px gainsboro;
+    z-index: 9;
+}
+/* 导航栏 */
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+.logo{
+    float: left;
+    margin-top: 18px;
+    margin-left: 30px;   
+}
+.span{
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    background-color: #2c58ab;
+    color: white;
+    border-radius: 16px;
+    float: left;
+    margin-top: 20px;
+    padding: 4px 6px;
+}
+.topUl{
+    float: left;
+    margin-left: 580px;
+}
+.touxiangBox ul{
+    float: left;
+    margin-top: -0px;
+}
+.top ul li{
+    float: left;
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 16px;
+    margin-top: 4px;
+
+}
+.studentTask{
+    border-bottom: 4px solid #2C58AB;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+.btm{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #2c58ab;
+    left: 515px;
+    margin-top: 70px;
+}
+/* 头部右边 */
+.touxiangBox{
+    float: right;
+    width: 100px;
+    height: 72px;
+}
+#touxiang{
+    width: 45px;
+    height: 40px;
+    float: left;
+    margin-top: 20px; 
+}
+/* 点击弹出列表框 */
+#people{
+    width: 160px;
+    height: 270px;
+    background-color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -100px;
+    display: none;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    
+}
+.item4 a{
+    font-size: 14px;
+    margin-left: -60px;
+    width: 160px;
+    height: 40px;
+    display: inline-block;
+    color: black;
+}
+.item4{
+    list-style: none;
+}
+.item4 a:hover{
+    background-color: gainsboro;
+    color: blue;
+    
+}
+
+.vip{
+    position: absolute;
+    margin-top: 7px;
+    
+}
+.mechanismNo{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 8px;
+    width: 20px;
+    height: 20px;
+}
+.recode_2{
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 15px;
+    height: 20px;
+}
+/*  */
+#naozhong{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: 30px; 
+    margin-right: 20px;
+}
+.newsOpen{
+    float: right;
+    
+    width: 50px;
+    height: 72px;
+}
+
+/* 消息通知弹出框 */
+#news{
+    width: 350px;
+    height: 320px;
+    position: absolute;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-left: -250px;
+    box-shadow: 2px 2px 10px #A1A1A1;
+    display: none;
+    
+}
+.newsTitle{
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+.newsDown{
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height:50px;
+    background-color: #f2f2f2;
+}
+.newsLeft{
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.newsRight{
+    color: #999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 220px;
+    position: absolute;
+}
+
+
+.tool1{
+    float: right;
+    width: 150px;
+    height: 72px;
+    
+}
+.tool_icon{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+/* 中部 */
+.content{
+    width: 80%;
+    height: 1500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.contentTop{
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.contentblank{
+    border: 1px solid #DADCE0;
+    border-radius: 8px;
+    padding: 24px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.content-wen{
+
+}
+.content-title{
+   margin-bottom: 10px;
+}
+.title-name{
+    font-size: 16px;
+}
+.content-introduce{
+    color: #999999;
+}
+.content-span{
+    margin-top: 30px;
+}
+.content-span span{
+    padding: 5px;
+    background: #f1f3f4;
+    margin-right: 10px;
+    width: 120px;
+    text-align: center;
+    color: #444850;
+    font-size: 10px;
+    float: left;
+    display: block;
+    height: 26px;
+}
+.content-paper{
+    display: inline-block;
+    margin: 0;
+    color: #5F6368;
+    background: 0 0;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+}
+.content-paper img{
+    vertical-align: middle;
+    padding-right: 10px;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.content-handup{
+    padding-top: 20px;
+}
+.handup{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;/*两端对齐*/
+}
+.handup-button{
+    background-color: rgba(50,186,240,1);
+    font-size: 16px;
+    text-align: center;
+    width: 102px;
+}
+.handup-button a{
+    color: #f1f3f4;
+}
+.handup-wwc{
+    display: flex;
+    font-size: 16px;
+    line-height: 40px;
+}
+.finishTask{
+    color: red;
+}
+.homework-box{
+    margin-top: 20px;
+    border: 1px solid #E2E6ED;
+    background: #FFF;
+    border-radius: 8px;
+}
+.hw{
+    width: 330px;
+    height: 80px;
+    border: 2px dashed #CCC;
+    margin: 24px;
+    line-height: 80px;
+}
+.hw-tj{
+
+}
+.hw-tj img{
+    padding-right: 10px;
+    width: 37px;
+    height: 35px;
+    margin: 22px 13px 0 30px;
+    float: left;
+}
+.hw-add{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 12px 16px 0 10px;
+    line-height: 15px;
+}
+.shangchuan input{
+    font-size: 11px;
+    color: #949494;
+    display: block;
+    margin-left: -2px;
+    line-height: 18px;
+    border: 0;
+    width: 210px;
+}
+.work-message{
+    background:#F1F3F4;
+    border-top: 1px solid #dcdcdc;
+    border-radius: 8px;
+    line-height: 30px;
+    padding: 24px 0;
+    cursor: text;
+}
+.s1{
+    font-size: 14px;
+    width: 100px;
+    padding-right: 35px;
+    text-align: right;
+    color: #010000;
+    float: left;
+}
+.s2{
+    margin-left: 30px;
+    font-size: 14px;
+    color: #818181;
+    width: 685px;
+}
+.clear:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.work-message2{
+    background: #F1F3F4;
+    border-top: 1px solid #dcdcdc;
+    padding: 26px 0 26px 25px;
+    display: none;
+}
+.work-message2 span{
+    float: left;
+    width: 80px;
+    line-height: 40px;
+}
+.work-message2 textarea{
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #D2D2D2;
+    width: 440px;
+    float: left;
+    margin-right: 22px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.sure{
+    background: #32BAF0;
+    color: #FFFFFF;
+}
+.homework-log{
+    cursor: pointer;
+    padding-top: 20px;
+}
+.homework-log a{
+    color: #32BAF0;
+}

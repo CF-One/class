@@ -1,0 +1,27 @@
+.centerTop{
+    width: 360px;
+}
+.addBtn{
+    width: 100px;
+}
+.newsMessage{
+    text-align: center;
+    margin-top: 50px;
+    overflow: auto;
+    line-height: 36px;
+    height: 210px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #484848;
+}
+.newsMessageCall{
+    height: 48px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.newsMessageCallDate{
+    font-size: 12px;
+    margin-top: -18px;
+    display: block;
+    margin-left: 150px;
+    color: #B6B6B6;
+}

@@ -1,0 +1,176 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    text-align: center;
+
+}
+.main{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image:url("../image/login-bg2-01.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover;/* 兼容Opera */
+    zoom: 1;
+    z-index: 1;
+}
+.mainShadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #484848;
+    opacity: 0.5;
+    z-index: 2;
+}
+.login {
+    width: 500px;
+    height: 540px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 3;
+    position: fixed;
+    top: 22%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loginTitle{
+    width: 100%;
+    height: 138px;
+    line-height: 138px;
+}
+.loginTitleAccount{
+    font-size: 26px;
+    margin-left: -100px;
+}
+.loginTitlePhone{
+    color: #A1A1A1;
+    font-size: 16px;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.loginTitleWeChat{
+    color: #A1A1A1;
+    font-size: 16px;
+}
+.loginTitlePhone:hover,.loginTitleWeChat:hover{
+    color: #484848;
+}
+.form{
+    width: 100%;
+    height: 423px;
+}
+/*.loginContent  input{
+    width: 420px;
+    height: 62px;
+    padding: 0px 0px 0px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    outline: none;
+}
+.loginContent input:focus{
+    border: 1px solid #32BAF0;
+}*/
+.loginContentDiv{
+    height: 66px;
+    width: 420px;
+    padding-left: 40px;
+}
+.loginContentDiv input{
+    width: 420px;
+    height: 50px;
+    border: 1px solid #ECECEC;
+    outline: none;
+    padding: 0px 0px 0px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.loginContentDiv input:focus{
+    border: 1px solid #32BAF0;
+}
+#phoneHint,#passwordHint{
+    float: right;
+    color: red;
+    font-size: 12px;
+}
+.loginContentForget{
+    width: 420px;
+    height: 64px;
+    line-height: 64px;
+    color: #A1A1A1;
+}
+.loginContentForget input{
+    margin-left: -196px;
+    border: 1px solid #32BAF0;
+}
+.loginContentForget a{
+    float: right;
+    margin-right: -46px;
+    color: #A1A1A1;
+}
+.loginContentForget a:hover,.loginContentForget span:hover{
+    color: #32BAF0;
+}
+.loginContentBtn{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.loginContentBtnA{
+    width: 420px;
+    height: 50px;
+    color: white;
+    background-color: #32BAF0;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-left: 40px;
+}
+.loginContentBtnA:hover{
+    background-color: #4d90fe;
+}
+.loginContentRegister{
+    width: 100%;
+    height: 48px;
+    margin-top: 0px;
+    color: #A1A1A1;
+}
+.loginContentRegister p{
+    float: right;
+    margin-right: 40px;
+}
+.loginContentRegister a{
+    color: #32BAF0;
+}
+.loginContentRegister a:hover{
+    color: #4d90fe;
+}
+.loginCode{
+    width: 100%;
+    height: 60px;
+    margin-top: 16px;
+}
+.loginCode img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
